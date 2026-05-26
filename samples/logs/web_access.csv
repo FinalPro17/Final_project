@@ -1,0 +1,5 @@
+timestamp,src_ip,method,url,status,user
+2026-05-26T10:00:00Z,10.0.0.5,GET,/login,200,guest
+2026-05-26T10:01:00Z,10.0.0.6,POST,/admin,403,guest
+2026-05-26T12:20:00Z,10.0.0.7,GET,/../../etc/passwd,404,
+not-a-time,10.0.0.8,GET,/wp-admin,404,guest

@@ -1,0 +1,15 @@
+rules:
+  - id: WEB-001
+    title: 웹 경로 스캐닝 탐지
+    mitre_tactic: Discovery
+    required_fields: [timestamp, src_ip, url, method]
+    log_type: web_access
+  - id: WEB-002
+    title: 관리자 페이지 접근 탐지
+    mitre_tactic: Initial Access
+    required_fields: [timestamp, src_ip, url, status]
+    log_type: web_access
+  - id: AUTH-001
+    title: 계정 기반 인증 실패 탐지
+    mitre_tactic: Credential Access
+    required_fields: [timestamp, user, action]
