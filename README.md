@@ -1,6 +1,6 @@
-# LogSight AI MVP Ollama Edition
+# LogSight
 
-보안 로그 품질 진단 및 관측성 사각지대 탐지 플랫폼 MVP입니다.
+보안 로그 품질 진단 및 관측성 사각지대 탐지 플랫폼입니다.
 
 ## 실행
 
